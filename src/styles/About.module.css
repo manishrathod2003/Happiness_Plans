@@ -1,0 +1,44 @@
+.aboutSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  gap: 50px;
+  flex-wrap: wrap;
+  background-color: #fdfdfd;
+  padding-top: 10rem;
+}
+
+.textContainer {
+  flex: 1.5;
+  min-width: 300px;
+}
+
+.textContainer h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.textContainer p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+.imageContainer {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutImage {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
